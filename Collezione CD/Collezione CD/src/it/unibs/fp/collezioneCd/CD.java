@@ -18,7 +18,7 @@ public class CD {
 	//VARIABILI
 	private String autore;
     private String titoloAlbum;
-    private static Vector <Brani> listaBrani = new Vector <Brani>();
+    private static Vector <Brani> listaBrani;
     
     /**
      * Costruttore CD
@@ -66,7 +66,7 @@ public class CD {
 /**
  	* Controlla che il titolo del brano non sia gia stato utilizzato
  * @param title
- * @return vero se il titolo Ë gi‡ stato usato, falso altrimenti
+ * @return vero se il titolo √® gi√† stato usato, falso altrimenti
  */
 	private static boolean isDuplicated(String title) {
 		for (int i = 0; i<listaBrani.size(); i++) {
