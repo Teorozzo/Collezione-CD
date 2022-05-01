@@ -18,7 +18,7 @@ public class CD {
 	//VARIABILI
 	private String autore;
     private String titoloAlbum;
-    private static Vector <Brani> listaBrani;
+    private Vector <Brani> listaBrani;
     
     /**
      * Costruttore CD
